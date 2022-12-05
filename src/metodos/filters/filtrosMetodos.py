@@ -13,17 +13,17 @@ def selecionaFiltro(imagem):
 
     match opcao:
       case 0:
-        return imagem, 0
+        return imagem, opcao
       case 1:
-        return filtros.sepia(imagem), 1
+        return filtros.sepia(imagem), opcao
       case 2:
-        return filtros.desenhoLapis(imagem), 2
+        return filtros.desenhoLapis(imagem), opcao
       case 3:
-        return filtros.meuPrimeiroFiltro(imagem), 3
+        return filtros.meuPrimeiroFiltro(imagem), opcao
       case 4:
-        return filtros.escalaCinza(imagem), 4 # DESENVOLVER FILTRO
+        return filtros.escalaCinza(imagem), opcao
       case 5:
-        return filtros.negativo(imagem), 5 # DESENVOLVER FILTRO
+        return filtros.negativo(imagem), opcao
       case default:
         sair = False
         

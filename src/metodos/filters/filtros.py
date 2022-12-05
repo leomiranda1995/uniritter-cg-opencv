@@ -35,13 +35,11 @@ def meuPrimeiroFiltro(img):
       azul, verde, vermelho = cores.getColor(img, x, y)
       img = cores.setColor(img, x, y, verde, azul, azul)
   return img
-  
-
-# DESENVOLVER MÉTODO
+ 
 def escalaCinza(img):
+  img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
   return img
 
-
-# DESENVOLVER MÉTODO
 def negativo(img):
+  img = 255 - img
   return img
