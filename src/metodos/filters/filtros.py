@@ -43,3 +43,8 @@ def escalaCinza(img):
 def negativo(img):
   img = 255 - img
   return img
+
+
+def borrar(img):
+  img = cv2.blur(img,(9,5))
+  return img

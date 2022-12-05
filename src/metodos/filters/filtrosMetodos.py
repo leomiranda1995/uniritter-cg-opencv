@@ -24,6 +24,8 @@ def selecionaFiltro(imagem):
         return filtros.escalaCinza(imagem), opcao
       case 5:
         return filtros.negativo(imagem), opcao
+      case 6:
+        return filtros.borrar(imagem), opcao
       case default:
         sair = False
         
@@ -35,5 +37,6 @@ def opcoesFiltro():
     print("3 - Primeiro Filtro")
     print("4 - Escala de Cinza")
     print("5 - Negativo")
+    print("6 - Borrar")
     print("0 - Sair")
     print("\nSelecione um filtro:")
