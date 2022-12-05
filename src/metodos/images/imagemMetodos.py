@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+import os
 
 def selecionaImagem():
   # DESENVOLVER O INPUT DE IMAGEM PARA QUE O USUÁRIO SELECIONE
@@ -13,6 +14,7 @@ def showImagem(imagem):
   plt.show()
 
 def gravaImagem(imagem):
-  # DESENVOLVER A FUNCIONALIDADE DE PEGAR O NOME DO ARQUIVO ORIGINAL E GRAVAR COM ALGUM IDENTIFICADOR
-  # DESENVOLVER A FUNCIONALIDADE DE PRINTAR UMA MENSAGEM COM O NOME  E LOCAL DO ARQUIVO GRAVADO
-  cv2.imwrite("arquivos/bulbasaur_modificado.png", imagem)
+  os.system("cls")
+  print("Informe o nome do novo arquivo:")
+  nomeArquivo = input()
+  cv2.imwrite("arquivos/" + nomeArquivo + ".png", imagem)
