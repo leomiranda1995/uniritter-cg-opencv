@@ -1,10 +1,12 @@
 import numpy as np
 import cv2
 import os
+from tkinter import filedialog
 
 def selecionaImagem():
   # DESENVOLVER O INPUT DE IMAGEM PARA QUE O USUÁRIO SELECIONE
-  imagem = cv2.imread("arquivos/bulbasaur.png")
+  selecao_imagem = filedialog.askopenfilename(filetypes=[("Arquivos PNG", "*.png"), ("Arquivos JPG", "*.jpg")])
+  imagem = cv2.imread(selecao_imagem)
   return imagem
 
 def showImagem(imagem):
