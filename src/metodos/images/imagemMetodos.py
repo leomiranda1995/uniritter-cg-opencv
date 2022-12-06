@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 import os
-from tkinter import filedialog #Necessário pip install tk
 
 def selecionaImagem():
   os.system("cls")
