@@ -48,31 +48,32 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
   ### filtros:
    * desenhoLapis(img): Foi desenvolvido o filtro de desenho a lapis onde é calculado o inverso, 255 é branco, 0 é preto e aplicado o blur. é feito o blend com o cv2.divide.
     
-![desenho de lapis](https://user-images.githubusercontent.com/64978472/205937358-1337f434-6e20-4719-8509-92633ebf69ee.png)
+![desenho de lapis](https://user-images.githubusercontent.com/64978472/205940521-4044454e-3139-45be-a706-beb1eadac35a.png)
 
-    
+
+
    *  sepia(img): Foi desenvolvido o filtro de sepia onde é feita a divisão e alteração das cores solidas.
  
-     
-![sepia](https://user-images.githubusercontent.com/64978472/205937102-360c33a1-ff00-425e-8707-3ba1b902dee8.png)
-
+![sepia](https://user-images.githubusercontent.com/64978472/205940346-ced907f7-8282-48b1-8f9c-ed95c393f8ba.png)    
   
-    
-   *  escalaCinza(img): Foi desenvolvido o filtro de escala de cinza onde a imagem é aplicada a BGR2GRAY.
   
-    (ADICIONAR IMAGEM)
-    
+  
    * meuPrimeiroFiltro(img): Foi desenvolvido o filtro para fazer a inversão das cores.
  
-![cor inversa](https://user-images.githubusercontent.com/64978472/205937302-9c80cf27-d96e-4a4a-aa6a-f902ff35793d.png)
+![cor inversa](https://user-images.githubusercontent.com/64978472/205941308-210951cb-2cb7-483d-a00f-c1d1009869b1.png)
 
-    
+
     
    *  negativo(img): Foi desenvolvido o filtro de negativas a foto sendo ele pegando a imagem que é igual a 255 e fazendo a subtração dela mesma.
 
-    (ADICIONAR IMAGEM)
+![WhatsApp Image 2022-12-06 at 11 28 15](https://user-images.githubusercontent.com/64978472/205940689-61bfb02d-cf7e-4b82-9234-147e701d327f.jpeg)
+    
+    
     
    *  borrar(img): Foi desenvolvido o filtro de borrar, onde é pego a imagem e aplicado o blur.
+   
+![WhatsApp Image 2022-12-06 at 11 28 15 (1)](https://user-images.githubusercontent.com/64978472/205940853-32341f75-358b-4911-b8dd-c29c045d4927.jpeg)
+
 
 
 ## 🎯 Status do projeto
