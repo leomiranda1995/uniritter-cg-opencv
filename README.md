@@ -18,7 +18,7 @@ Instalar o Python em seu computador
 * [Clonar o projeto](https://github.com/leomiranda1995/uniritter-cg-opencv.git)
 
 ## 🔧 Instalação
-Para auxilio na instalação utilize o tutorial:
+Para auxilio na instalação execute o arquivo Config.bat da raiz do projeto ou siga o tutorial abaixo:
 * Após abra o prompt de comando na raiz do projeto e execute os comandos abaixo:
 ```sh
 pip install virtualenv
