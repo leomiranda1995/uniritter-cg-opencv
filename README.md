@@ -1,6 +1,6 @@
 # Projeto Final de Processamento de Imagem
 
-# Filipe Tietbohl, Leonardo Miranda e Shaueny Ribeiro.
+### Filipe Tietbohl, Leonardo Miranda e Shaueny Ribeiro.
 
 ## 🚀 Objetivo
 Este projeto foi criado e executado com o objetivo de fazer a aleteração das imagens conforme o usuário desejar, sendo ela selecionada pelo usuário e depois escolher qual o filtro a ser aplicado na imagem, dentre as opções 5 opções no menu (desenho a lapis, cinza, negativo, sepia e inversão de cores).
