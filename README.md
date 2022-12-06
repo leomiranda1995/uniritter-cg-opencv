@@ -63,31 +63,37 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
   ### filtros:
    * desenhoLapis(img): Foi desenvolvido o filtro de desenho a lapis onde a imagem é convertida em tons de cinza para após ser invertida para negativo. Após é aplicado o método de blur guassiano e após combinadas as imagens em tons de cinza da etapa 1 com o negativo desfocado da etapa 3
     
-![WhatsApp Image 2022-12-06 at 18 09 45](https://user-images.githubusercontent.com/64978472/206024130-a38abd6f-8b6e-4d23-8f24-89cb5d39b2da.jpeg)
+![WhatsApp Image 2022-12-06 at 20 14 03](https://user-images.githubusercontent.com/64978472/206045922-13a794ab-78be-4c3d-803d-a90609191df6.jpeg)
+
 
 
 
    *  sepia(img): Foi desenvolvido o filtro de sepia onde é feita a conversão da imagem para a cor cinza e esta conversão é dividida por 255. Logo após a imagem original tem seus pontos de cores multiplicados. Deste resultado cada ponto é multiplicado pela imagem convertida para cinza que foi dividida, chegando assim ao efeito Sépia.
  
-![sepia](https://user-images.githubusercontent.com/64978472/205940346-ced907f7-8282-48b1-8f9c-ed95c393f8ba.png)    
+![WhatsApp Image 2022-12-06 at 20 13 41](https://user-images.githubusercontent.com/64978472/206046096-7ea2091b-c3ff-4f26-9dbc-da6cbbf78606.jpeg)
+
   
   
   
    * inversaoCores(img): Foi desenvolvido o filtro para inverter as cores de azul por vemelho, verde por azul e vermelho por verde.
  
-![WhatsApp Image 2022-12-06 at 18 13 38](https://user-images.githubusercontent.com/64978472/206025562-b1b1a841-2d2c-4681-88c4-efb9a96d4a4b.jpeg)
+![WhatsApp Image 2022-12-06 at 20 14 38](https://user-images.githubusercontent.com/64978472/206045996-235ff829-7e67-4c49-9543-f4a2f4799376.jpeg)
+
 
 
 
    *  negativo(img): Foi desenvolvido o filtro de negativas a foto sendo ele inverte a imagem para negativo, com o cálculo (255 - imagem).
 
-![WhatsApp Image 2022-12-06 at 11 28 15](https://user-images.githubusercontent.com/64978472/205940689-61bfb02d-cf7e-4b82-9234-147e701d327f.jpeg)
-    
+![WhatsApp Image 2022-12-06 at 20 14 20](https://user-images.githubusercontent.com/64978472/206046066-101e1f5c-5200-45cc-a79d-bd78cb81cfd9.jpeg)
+
+
 
 
    *  borrar(img): Foi desenvolvido o filtro de borrar, onde é aplicado o método blur na imagem, passando a imagem e o parâmetro de dimensão para borrar a imagem
    
-![WhatsApp Image 2022-12-06 at 11 28 15 (1)](https://user-images.githubusercontent.com/64978472/205940853-32341f75-358b-4911-b8dd-c29c045d4927.jpeg)
+![WhatsApp Image 2022-12-06 at 20 14 52](https://user-images.githubusercontent.com/64978472/206046147-5a9fcb85-e3ef-4379-8a6e-4e1aa199e157.jpeg)
+
+
 
 
 
