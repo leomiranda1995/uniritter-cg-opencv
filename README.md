@@ -22,13 +22,16 @@ Para auxilio na instalação utilize o tutorial:
 * Após abra o prompt de comando na raiz do projeto e execute os comandos abaixo:
 ```sh
 pip install virtualenv
+pip install opencv-python
 virtualenv opencv
 cd opencv\Scripts
 activate
 cd..
 cd..
 cd src
+pip install numpy
 pip install matplotlib
+pause
 ```
 
 ## ⚙️ Sobre a aplicação
