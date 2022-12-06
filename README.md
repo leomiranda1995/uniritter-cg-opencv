@@ -13,9 +13,9 @@ Foi utilizado um repositório público secundário para a execução do trabalho
 ## 📋 Softwares necessários
 Você precisará dos seguintes softwares para executar este aplicação:
 Instalar o Python em seu computador
-* [Phyton 3:](https://www.python.org/downloads/)
+* [Phyton 3](https://www.python.org/downloads/)
 
-* [Clonar este projeto:](https://github.com/leomiranda1995/uniritter-cg-opencv.git)
+* [Clonar o projeto](https://github.com/leomiranda1995/uniritter-cg-opencv.git)
 
 ## 🔧 Instalação
 Para auxilio na instalação utilize o tutorial:
