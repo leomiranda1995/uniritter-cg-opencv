@@ -27,13 +27,13 @@ def sepia(img):
     return np.array(sepia, np.uint8)
 
 
-def meuPrimeiroFiltro(img):
+def inversaoCores(img):
   altura, largura, canaisDeCor = img.shape
 
   for y in range(0, altura):
     for x in range(0, largura):
       azul, verde, vermelho = cores.getColor(img, x, y)
-      img = cores.setColor(img, x, y, verde, azul, azul)
+      img = cores.setColor(img, x, y, vermelho, azul, verde)
   return img
  
 def escalaCinza(img):

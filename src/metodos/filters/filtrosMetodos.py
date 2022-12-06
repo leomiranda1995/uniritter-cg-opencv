@@ -19,7 +19,7 @@ def selecionaFiltro(imagem):
       case 2:
         return filtros.desenhoLapis(imagem), opcao
       case 3:
-        return filtros.meuPrimeiroFiltro(imagem), opcao
+        return filtros.inversaoCores(imagem), opcao
       case 4:
         return filtros.escalaCinza(imagem), opcao
       case 5:
@@ -34,7 +34,7 @@ def opcoesFiltro():
     os.system("cls")
     print("1 - Sepia")
     print("2 - Desenho a Lápis")
-    print("3 - Primeiro Filtro")
+    print("3 - Inversão de Cores")
     print("4 - Escala de Cinza")
     print("5 - Negativo")
     print("6 - Borrar")
