@@ -7,7 +7,7 @@ def selecionaImagem():
   print("Informe o caminho da imagem:")
   selecao_imagem = input()
   imagem = cv2.imread(selecao_imagem)
-  return imagem
+  return imagem, selecao_imagem
 
 def showImagem(imagem):
   from matplotlib import pyplot as plt

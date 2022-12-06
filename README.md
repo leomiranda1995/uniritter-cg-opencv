@@ -61,7 +61,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
    * opcoesFiltro(): Menu montado das com as 5 opções de filtros.
 
   ### filtros:
-   * desenhoLapis(img): Foi desenvolvido o filtro de desenho a lapis onde é calculado o inverso, 255 é branco, 0 é preto e aplicado o blur. é feito o blend com o cv2.divide.
+   * desenhoLapis(img): Foi desenvolvido o filtro de desenho a lapis onde a imagem é convertida em tons de cinza para após ser invertida para negativo. Após é aplicado o método de blur guassiano e após combinadas as imagens em tons de cinza da etapa 1 com o negativo desfocado da etapa 3
     
 ![desenho de lapis](https://user-images.githubusercontent.com/64978472/205940521-4044454e-3139-45be-a706-beb1eadac35a.png)
 
@@ -73,19 +73,19 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
   
   
   
-   * inversaoCores(img): Foi desenvolvido o filtro para fazer a inversão das cores.
+   * inversaoCores(img): Foi desenvolvido o filtro para inverter as cores de azul por vemelho, verde por azul e vermelho por verde.
  
 ![cor inversa](https://user-images.githubusercontent.com/64978472/205941308-210951cb-2cb7-483d-a00f-c1d1009869b1.png)
 
 
-    
-   *  negativo(img): Foi desenvolvido o filtro de negativas a foto sendo ele pegando a imagem que é igual a 255 e fazendo a subtração dela mesma.
+
+
+   *  negativo(img): Foi desenvolvido o filtro de negativas a foto sendo ele inverte a imagem para negativo, com o cálculo (255 - imagem).
 
 ![WhatsApp Image 2022-12-06 at 11 28 15](https://user-images.githubusercontent.com/64978472/205940689-61bfb02d-cf7e-4b82-9234-147e701d327f.jpeg)
     
-    
-    
-   *  borrar(img): Foi desenvolvido o filtro de borrar, onde é pego a imagem e aplicado o blur.
+
+   *  borrar(img): Foi desenvolvido o filtro de borrar, onde é aplicado o método blur na imagem, passando a imagem e o parâmetro de dimensão para borrar a imagem
    
 ![WhatsApp Image 2022-12-06 at 11 28 15 (1)](https://user-images.githubusercontent.com/64978472/205940853-32341f75-358b-4911-b8dd-c29c045d4927.jpeg)
 

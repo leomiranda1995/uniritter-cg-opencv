@@ -2,12 +2,17 @@ import numpy as np
 import cv2
 import metodos.images.cores as cores
 
-def desenhoLapis(img):
-  # calculando o inverso, 255 é branco 0 é preto e aplicando o blur
+def desenhoLapis(img, caminhoImagem):
+  # Imagem convertida em tons de cinza
+  img = cv2.imread(caminhoImagem, cv2.IMREAD_GRAYSCALE)
+
+  # Imagem invertida em tons de cinza para ter o negativo
   img_gray_inv = 255 - img
+
+  # Blur Guassiano aplicado ao negativo.
   img_blur = cv2.GaussianBlur(img_gray_inv, (21,21), 0, 0)
 
-  # fazemos o blend com o cv2.divide
+  # Imagem coCombine a imagem em tons de cinza da etapa 1 com o negativo desfocado da etapa 3
   img_blend = cv2.divide(img, 255 - img_blur, scale = 256)
   return img_blend
 
@@ -41,10 +46,12 @@ def escalaCinza(img):
   return img
 
 def negativo(img):
+  # Invertida a imagem para negativo, com o cálculo (255 - imagem)
   img = 255 - img
   return img
 
 
 def borrar(img):
+  # Aplicado o método blur na imagem, passando a imagem e o parâmetro dimensão de como queremos borrar a imagem
   img = cv2.blur(img,(9,5))
   return img

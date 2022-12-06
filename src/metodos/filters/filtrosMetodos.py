@@ -1,7 +1,7 @@
 import metodos.filters.filtros as filtros
 import os
 
-def selecionaFiltro(imagem):
+def selecionaFiltro(imagem, caminhoImagem):
   sair = False
   opcao = 0
 
@@ -17,7 +17,7 @@ def selecionaFiltro(imagem):
       case 1:
         return filtros.sepia(imagem), opcao
       case 2:
-        return filtros.desenhoLapis(imagem), opcao
+        return filtros.desenhoLapis(imagem, caminhoImagem), opcao
       case 3:
         return filtros.inversaoCores(imagem), opcao
       case 4:

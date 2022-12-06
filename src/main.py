@@ -23,8 +23,8 @@ def main():
         sair = True
         break
       case 1:
-        imagem = imagemMetodos.selecionaImagem()
-        imagem, filtroSelecionado = filtrosMetodos.selecionaFiltro(imagem)
+        imagem, caminhoImagem = imagemMetodos.selecionaImagem()
+        imagem, filtroSelecionado = filtrosMetodos.selecionaFiltro(imagem, caminhoImagem)
 
         if (filtroSelecionado != 0):
           imagemMetodos.gravaImagem(imagem)
