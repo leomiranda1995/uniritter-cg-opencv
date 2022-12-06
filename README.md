@@ -63,7 +63,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
   ### filtros:
    * desenhoLapis(img): Foi desenvolvido o filtro de desenho a lapis onde a imagem é convertida em tons de cinza para após ser invertida para negativo. Após é aplicado o método de blur guassiano e após combinadas as imagens em tons de cinza da etapa 1 com o negativo desfocado da etapa 3
     
-![desenho de lapis](https://user-images.githubusercontent.com/64978472/205940521-4044454e-3139-45be-a706-beb1eadac35a.png)
+![WhatsApp Image 2022-12-06 at 18 09 45](https://user-images.githubusercontent.com/64978472/206024130-a38abd6f-8b6e-4d23-8f24-89cb5d39b2da.jpeg)
 
 
 
