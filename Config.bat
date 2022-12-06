@@ -1,5 +1,4 @@
 pip install virtualenv
-pause
 virtualenv opencv
 cd opencv\Scripts
 activate
