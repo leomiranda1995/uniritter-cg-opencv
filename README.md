@@ -5,9 +5,10 @@
 ## 🚀 Objetivo
 Este projeto foi criado e executado com o objetivo de fazer a aleteração das imagens conforme o usuário desejar, sendo ela selecionada pelo usuário e depois escolher qual o filtro a ser aplicado na imagem, dentre as opções 5 opções no menu (desenho a lapis, cinza, negativo, sepia e inversão de cores).
 
-## 📄 Git teste
+## 📄 Repositórios
 Foi utilizado um repositório público secundário para a execução do trabalho como teste.
-[Acesso ao git](https://github.com/leomiranda1995/uniritter-cg-opencv)
+* [Repositório de teste](https://github.com/leomiranda1995/uniritter-cg-opencv)
+* [Repositório da entrega do trabalho](adicionar o link)
 
 ## 📋 Softwares necessários
 Você precisará dos seguintes softwares para executar este aplicação:
