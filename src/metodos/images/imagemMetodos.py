@@ -4,12 +4,11 @@ import os
 from tkinter import filedialog #Necessário pip install tk
 
 def selecionaImagem():
-  ## DESENVOLVER O INPUT DE IMAGEM PARA QUE O USUÁRIO SELECIONE
-  selecao_imagem = filedialog.askopenfilename(filetypes=[("Arquivos PNG", "*.png"), ("Arquivos JPG", "*.jpg")])
+  os.system("cls")
+  print("Informe o caminho da imagem:")
+  selecao_imagem = input()
   imagem = cv2.imread(selecao_imagem)
   return imagem
-
-
 
 def showImagem(imagem):
   from matplotlib import pyplot as plt
