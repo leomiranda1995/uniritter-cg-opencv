@@ -39,7 +39,7 @@ pip install matplotlib
 Após ter efetuado o clone do projeto e instalado as dependências do projeto:
 1. Abra o Terminal / Prompt de Comando no diretório \src
 2. Execute o seguinte comando: `python main.py `
-3. Informar o caminho da imagem. (ex: arquivos/bulbasaur.png)
+3. Informar o caminho da imagem. (ex: arquivos/casimiro.png)
 4. Aguarde o seguinte texto aparecer: _Bem vindo(a), 1- selecione a imagem, 2- sair_
 5. Escolha a opção .
 6. Escolha entre as 5 opções de filtros.

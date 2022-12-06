@@ -12,9 +12,19 @@ def desenhoLapis(img, caminhoImagem):
   # Blur Guassiano aplicado ao negativo.
   img_blur = cv2.GaussianBlur(img_gray_inv, (21,21), 0, 0)
 
-  # Imagem coCombine a imagem em tons de cinza da etapa 1 com o negativo desfocado da etapa 3
+  # Combinada as imagens em tons de cinza da etapa 1 com o negativo desfocado da etapa 3
   img_blend = cv2.divide(img, 255 - img_blur, scale = 256)
   return img_blend
+
+
+def inversaoCores(img):
+  altura, largura, canaisDeCor = img.shape
+
+  for y in range(0, altura):
+    for x in range(0, largura):
+      azul, verde, vermelho = cores.getColor(img, x, y)
+      img = cores.setColor(img, x, y, vermelho, azul, verde)
+  return img
 
 
 def sepia(img):
@@ -36,15 +46,6 @@ def sepia(img):
     sepia[:,:,2] *= normalized_gray #R
     return np.array(sepia, np.uint8)
 
-
-def inversaoCores(img):
-  altura, largura, canaisDeCor = img.shape
-
-  for y in range(0, altura):
-    for x in range(0, largura):
-      azul, verde, vermelho = cores.getColor(img, x, y)
-      img = cores.setColor(img, x, y, vermelho, azul, verde)
-  return img
  
 def escalaCinza(img):
   # Converter para escala de cor cinza
@@ -59,5 +60,5 @@ def negativo(img):
 
 def borrar(img):
   # Aplicado o método blur na imagem, passando a imagem e o parâmetro dimensão de como queremos borrar a imagem
-  img = cv2.blur(img,(9,5))
+  img = cv2.blur(img,(25,5))
   return img
