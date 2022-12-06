@@ -69,6 +69,6 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
 
 
 ## 🎯 Status do projeto
-Projeto finalizado e atendendo a todos os requisitos solicitados pelo professo Vinicius Cassol. Foram implementado uma funcionalidade a mais do que o solicitado.
+Projeto finalizado, atendendo a todos os requisitos solicitados pelo professo Vinicius Cassol. Foi implementado uma funcionalidade a mais do que o solicitado.
 
 
