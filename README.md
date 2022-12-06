@@ -20,7 +20,7 @@ Instalar o Python em seu computador
 ## 🔧 Instalação
 Para auxilio na instalação utilize o tutorial:
 * Após abra o prompt de comando na raiz do projeto e execute os comandos abaixo:
-1) pip install virutalenv
+1) pip install virtualenv
 2) virtualenv opencv
 3) cd opencv\Scripts
 4) activate
