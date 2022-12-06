@@ -75,8 +75,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
   
    * inversaoCores(img): Foi desenvolvido o filtro para inverter as cores de azul por vemelho, verde por azul e vermelho por verde.
  
-![cor inversa](https://user-images.githubusercontent.com/64978472/205941308-210951cb-2cb7-483d-a00f-c1d1009869b1.png)
-
+![WhatsApp Image 2022-12-06 at 18 13 38](https://user-images.githubusercontent.com/64978472/206025562-b1b1a841-2d2c-4681-88c4-efb9a96d4a4b.jpeg)
 
 
 
@@ -84,6 +83,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
 
 ![WhatsApp Image 2022-12-06 at 11 28 15](https://user-images.githubusercontent.com/64978472/205940689-61bfb02d-cf7e-4b82-9234-147e701d327f.jpeg)
     
+
 
    *  borrar(img): Foi desenvolvido o filtro de borrar, onde é aplicado o método blur na imagem, passando a imagem e o parâmetro de dimensão para borrar a imagem
    
