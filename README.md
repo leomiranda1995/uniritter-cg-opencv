@@ -8,7 +8,7 @@ Este projeto foi criado e executado com o objetivo de fazer a aleteração das i
 ## 📄 Repositórios
 Foi utilizado um repositório público secundário para a execução do trabalho como teste.
 * [Repositório de teste](https://github.com/leomiranda1995/uniritter-cg-opencv)
-* [Repositório da entrega do trabalho](adicionar o link)
+* [Repositório da entrega do trabalho](https://github.com/profvini/projetopi-leonardo_miranda)
 
 ## 📋 Softwares necessários
 Você precisará dos seguintes softwares para executar este aplicação:
