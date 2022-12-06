@@ -5,6 +5,10 @@
 ## 🚀 Objetivo
 Este projeto foi criado e executado com o objetivo de fazer a aleteração das imagens conforme o usuário desejar, sendo ela selecionada pelo usuário e depois escolher qual o filtro a ser aplicado na imagem, dentre as opções 5 opções no menu (desenho a lapis, cinza, negativo, sepia e inversão de cores).
 
+## 📄 Git teste
+Foi utilizado um repositório público secundário para a execução do trabalho como teste.
+[Acesso ao git](https://github.com/leomiranda1995/uniritter-cg-opencv)
+
 ## 📋 Softwares necessários
 Você precisará dos seguintes softwares para executar este aplicação:
 * Phyton 3
@@ -12,8 +16,7 @@ Você precisará dos seguintes softwares para executar este aplicação:
 
 ## 🔧 Instalação
 Para auxilio na instalação utilize o tutorial:
-* **[Video para ajuda na configuração] (por o link do youtube)**
-
+* [Video explicativo](https://youtu.be/oAH_GJclePY?t=463)
 ## ⚙️ Sobre a aplicação
 
 ## 🔩 Como inicializar a aplicação
@@ -43,7 +46,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
 
   ### filtros:
    * desenhoLapis(img): Foi desenvolvido o filtro de desenho a lapis onde é calculado o inverso, 255 é branco, 0 é preto e aplicado o blur. é feito o blend com o cv2.divide.
-    ![image](https://user-images.githubusercontent.com/64978472/205903925-8e24a49f-0889-431d-a320-8961f525bf95.png)
+    
     
     
    *  sepsia(img): Foi desenvolvido o filtro de sepia onde é feita a divisão e alteração das cores solidas.
@@ -62,3 +65,9 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
 
     (ADICIONAR IMAGEM)
    *  borrar(img): Foi desenvolvido o filtro de borrar, onde é pego a imagem e aplicado o blur.
+
+
+## 🎯 Status do projeto
+Projeto finalizado e atendendo a todos os requisitos solicitados pelo professo Vinicius Cassol. Foram implementado uma funcionalidade a mais do que o solicitado.
+
+
