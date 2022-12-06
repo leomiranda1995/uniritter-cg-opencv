@@ -13,21 +13,21 @@ Foi utilizado um repositório público secundário para a execução do trabalho
 ## 📋 Softwares necessários
 Você precisará dos seguintes softwares para executar este aplicação:
 Instalar o Python em seu computador
-* Phyton 3: https://www.python.org/downloads/
+* [Phyton 3:](https://www.python.org/downloads/)
 
-* Clonar este projeto: https://github.com/leomiranda1995/uniritter-cg-opencv.git
+* [Clonar este projeto:](https://github.com/leomiranda1995/uniritter-cg-opencv.git)
 
 ## 🔧 Instalação
 Para auxilio na instalação utilize o tutorial:
 * Após abra o prompt de comando na raiz do projeto e execute os comandos abaixo:
-1) pip install virtualenv
-2) virtualenv opencv
-3) cd opencv\Scripts
-4) activate
-5) cd..
-6) cd..
-7) cd src
-8) pip install matplotlib
+1. pip install virtualenv
+2. virtualenv opencv
+3. cd opencv\Scripts
+4. activate
+5. cd..
+6. cd..
+7. cd src
+8. pip install matplotlib
 
 
 ## ⚙️ Sobre a aplicação
@@ -70,7 +70,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
   
   
   
-   * meuPrimeiroFiltro(img): Foi desenvolvido o filtro para fazer a inversão das cores.
+   * inversaoCores(img): Foi desenvolvido o filtro para fazer a inversão das cores.
  
 ![cor inversa](https://user-images.githubusercontent.com/64978472/205941308-210951cb-2cb7-483d-a00f-c1d1009869b1.png)
 
