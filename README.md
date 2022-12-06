@@ -3,7 +3,7 @@
 ### Filipe Tietbohl, Leonardo Miranda e Shaueny Ribeiro.
 
 ## 🚀 Objetivo
-Este projeto foi criado e executado com o objetivo de fazer a aleteração das imagens conforme o usuário desejar, sendo ela selecionada pelo usuário e depois escolher qual o filtro a ser aplicado na imagem, dentre as opções 5 opções no menu (desenho a lapis, cinza, negativo, sepia e inversão de cores).
+Este projeto foi criado e executado com o objetivo de fazer a alteração das imagens conforme o usuário desejar, sendo ela selecionada pelo usuário e depois escolher qual o filtro a ser aplicado na imagem, dentre as opções 5 opções no menu (desenho a lapis, cinza, negativo, sepia e inversão de cores).
 
 ## 📄 Repositórios
 Foi utilizado um repositório público secundário para a execução do trabalho como teste.
@@ -12,23 +12,35 @@ Foi utilizado um repositório público secundário para a execução do trabalho
 
 ## 📋 Softwares necessários
 Você precisará dos seguintes softwares para executar este aplicação:
-* Phyton 3
-* OpenCV 4
+Instalar o Python em seu computador
+* Phyton 3: https://www.python.org/downloads/
+
+* Clonar este projeto: https://github.com/leomiranda1995/uniritter-cg-opencv.git
 
 ## 🔧 Instalação
 Para auxilio na instalação utilize o tutorial:
-* [Video explicativo](https://youtu.be/oAH_GJclePY?t=463)
+* Após abra o prompt de comando na raiz do projeto e execute os comandos abaixo:
+ > pip install virutalenv
+ > virtualenv opencv
+ > cd opencv\Scripts
+ > activate
+ > cd..
+ > cd..
+ > cd src
+ > pip install matplotlib
+
+
 ## ⚙️ Sobre a aplicação
 
 ## 🔩 Como inicializar a aplicação
-Após ter efetuado o clone do projeto:
-1. Abra o Terminal / Prompt de Comando
+Após ter efetuado o clone do projeto e instalado as dependências do projeto:
+1. Abra o Terminal / Prompt de Comando no diretório \src
 2. Execute o seguinte comando: `phyton main.py `
-3. Informar o caminho da imagem.
+3. Informar o caminho da imagem. (ex: arquivos/bulbasaur.png)
 4. Aguarde o seguinte texto aparecer: _Bem vindo(a), 1- selecione a imagem, 2- sair_
 5. Escolha a opção .
 6. Escolha entre as 5 opções de filtros.
-7. Informe o novo nome da imagem.
+7. Informe o novo nome da imagem. (ex: bulbasaur_novo)
 
 ## 🛠️ Funcionalidades
 Foram desenvolvidas 5 funcionalidades, para a execução de alteração de imagem 
