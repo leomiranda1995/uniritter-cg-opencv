@@ -16,7 +16,7 @@ Para auxilio na instalação utilize o tutorial:
 
 ## ⚙️ Sobre a aplicação
 
-# 🔩 Como inicializar a aplicação
+## 🔩 Como inicializar a aplicação
 Após ter efetuado o clone do projeto:
 1. Abra o Terminal / Prompt de Comando
 2. Execute o seguinte comando: `phyton main.py `
@@ -26,7 +26,7 @@ Após ter efetuado o clone do projeto:
 6. Escolha entre as 5 opções de filtros.
 7. Informe o novo nome da imagem.
 
-# 🛠️ Funcionalidades
+## 🛠️ Funcionalidades
 Foram desenvolvidas 5 funcionalidades, para a execução de alteração de imagem 
  
  ### main:
