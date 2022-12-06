@@ -50,7 +50,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
     
     
     
-   *  sepsia(img): Foi desenvolvido o filtro de sepia onde é feita a divisão e alteração das cores solidas.
+   *  sepia(img): Foi desenvolvido o filtro de sepia onde é feita a divisão e alteração das cores solidas.
   
     (ADICIONAR IMAGEM)
     
