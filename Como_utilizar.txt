@@ -1,3 +1,5 @@
+Abrir o CMD e colar os comandos um por um
+
 pip install virtualenv
 pause
 virtualenv opencv
