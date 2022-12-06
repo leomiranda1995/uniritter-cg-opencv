@@ -67,7 +67,7 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
 
 
 
-   *  sepia(img): Foi desenvolvido o filtro de sepia onde é feita a divisão e alteração das cores solidas.
+   *  sepia(img): Foi desenvolvido o filtro de sepia onde é feita a conversão da imagem para a cor cinza e esta conversão é dividida por 255. Logo após a imagem original tem seus pontos de cores multiplicados. Deste resultado cada ponto é multiplicado pela imagem convertida para cinza que foi dividida, chegando assim ao efeito Sépia.
  
 ![sepia](https://user-images.githubusercontent.com/64978472/205940346-ced907f7-8282-48b1-8f9c-ed95c393f8ba.png)    
   
