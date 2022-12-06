@@ -3,7 +3,7 @@
 # Filipe Tietbohl, Leonardo Miranda e Shaueny Ribeiro.
 
 ## 🚀 Objetivo
-Este projeto foi criado e executado com o objetivo de fazer a aleteração das imagens conforme o usuário desejar, sendo ela selecionada pelo usuário e depois escolher qual o filtro a ser aplicado na imagem, dentre as opções no menu (desenho a lapis, cinza, negativo e sepia).
+Este projeto foi criado e executado com o objetivo de fazer a aleteração das imagens conforme o usuário desejar, sendo ela selecionada pelo usuário e depois escolher qual o filtro a ser aplicado na imagem, dentre as opções 5 opções no menu (desenho a lapis, cinza, negativo, sepia e inversão de cores).
 
 ## 📋 Softwares necessários
 Você precisará dos seguintes softwares para executar este aplicação:
@@ -23,7 +23,8 @@ Após ter efetuado o clone do projeto:
 3. Informar o caminho da imagem.
 4. Aguarde o seguinte texto aparecer: _Bem vindo(a), 1- selecione a imagem, 2- sair_
 5. Escolha a opção .
-6. Informe o novo nome da imagem.
+6. Escolha entre as 5 opções de filtros.
+7. Informe o novo nome da imagem.
 
 # 🛠️ Funcionalidades
 Foram desenvolvidas 5 funcionalidades, para a execução de alteração de imagem 
