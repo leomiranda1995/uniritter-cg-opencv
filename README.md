@@ -61,6 +61,13 @@ Foram desenvolvidas 5 funcionalidades, para a execução de alteração de image
    * opcoesFiltro(): Menu montado das com as 5 opções de filtros.
 
   ### filtros:
+   * Foto original:
+
+![WhatsApp Image 2022-12-06 at 20 15 02](https://user-images.githubusercontent.com/64978472/206048292-61c00e1a-7323-43f8-968e-5a415cab7be9.jpeg)
+
+  
+
+
    * desenhoLapis(img): Foi desenvolvido o filtro de desenho a lapis onde a imagem é convertida em tons de cinza para após ser invertida para negativo. Após é aplicado o método de blur guassiano e após combinadas as imagens em tons de cinza da etapa 1 com o negativo desfocado da etapa 3
     
 ![WhatsApp Image 2022-12-06 at 20 14 03](https://user-images.githubusercontent.com/64978472/206045922-13a794ab-78be-4c3d-803d-a90609191df6.jpeg)
