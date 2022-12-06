@@ -21,27 +21,13 @@ Instalar o Python em seu computador
 Para auxilio na instalação utilize o tutorial:
 * Após abra o prompt de comando na raiz do projeto e execute os comandos abaixo:
 ```sh
- pip install virtualenv
-```
- ```sh
+pip install virtualenv
 virtualenv opencv
-```
-```sh
 cd opencv\Scripts
-```
-```sh
 activate
-```
-```sh
 cd..
-```
-```sh
 cd..
-```
-```sh
 cd src
-```
-```sh
 pip install matplotlib
 ```
 
