@@ -18,14 +18,19 @@ def desenhoLapis(img, caminhoImagem):
 
 
 def sepia(img):
+    # Converter para escala de cor cinza
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    # Dividir a imagem em escala de cinza por 255
     normalized_gray = np.array(gray, np.float32)/255
     #solid color
+    # Para cada canal de cor é efetuada uma multiplicação de seus valores
     sepia = np.ones(img.shape)
     sepia[:,:,0] *= 153 #B
     sepia[:,:,1] *= 204 #G
     sepia[:,:,2] *= 255 #R
     #hadamard
+    # Do resultado anterior cada canal de cor é multiplicado pelos canais de cores da imagem em escala de cinza dividida
     sepia[:,:,0] *= normalized_gray #B
     sepia[:,:,1] *= normalized_gray #G
     sepia[:,:,2] *= normalized_gray #R
@@ -42,6 +47,7 @@ def inversaoCores(img):
   return img
  
 def escalaCinza(img):
+  # Converter para escala de cor cinza
   img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
   return img
 
